@@ -16,6 +16,7 @@ group :development do
   gem "quiet_assets", "~> 1.0.2"
   gem "better_errors", "~> 0.9.0"
   gem "binding_of_caller", "~> 0.7.1"
+  gem "jazz_hands", "~> 0.5.0"
 end
 
 group :test do
@@ -31,7 +32,6 @@ end
 group :development, :test do
   gem "rspec-rails", "~> 2.13.2"
   gem "factory_girl_rails", "~> 4.2.1"
-  gem "jazz_hands", "~> 0.5.0"
 end
 
 gem 'jquery-rails'
